@@ -11,4 +11,5 @@ const fs = require('fs');
   const decrypted = key.decrypt(test, 'utf8');
 
   console.log(decrypted);
+  console.log("simple edit");
 })();
